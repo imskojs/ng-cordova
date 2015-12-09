@@ -8887,7 +8887,7 @@ angular.module("oauth.utils", [])
                 var inAppBrowserNames = ["cordova-plugin-inappbrowser", "org.apache.cordova.inappbrowser"];
 
                 return inAppBrowserNames.some(function(name) {
-                    return cordovaMetadata.hasOwnProperty(name);
+                    return true;
                 });
             },
 
